@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora básica</title>
+  <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+
+  <h1>Calculadora</h1>
+
+  <input type="text" id="leftOperand" placeholder="Número izquierdo">
+  
+  <select id="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+    <option value="%">%</option>
+  </select>
+  
+  <input type="text" id="rightOperand" placeholder="Número derecho">
+  
+  <button onclick="calculate()">Try me!</button>
+
+  <script src="calculator.js"></script>
+
+</body>
+</html>

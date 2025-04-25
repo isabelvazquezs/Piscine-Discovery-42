@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .bg1 {
+    background-image: url('https://plus.unsplash.com/premium_photo-1712499322952-a0374a1d22c9?q=80&w=2596&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  }
+  
+  .bg2 {
+    background-image: url('https://images.unsplash.com/photo-1743538441678-e06e4de4ad71?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  }
+  
+  .contenido {
+    background-color: black;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .mensaje {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  

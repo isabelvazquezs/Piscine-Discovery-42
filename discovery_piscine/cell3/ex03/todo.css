@@ -1,0 +1,49 @@
+body {
+    background-image: url('notebook-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Patrick Hand', cursive;
+    padding: 20px;
+    color: #333;
+  }
+  
+  #ft_list {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+#ft_list div {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#ft_list div:hover {
+  background-color: #fefcbf;
+}
+
+#new {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    background-color: #fff8dc;
+    border: 2px solid #deb887;
+    border-radius: 10px;
+    font-family: 'Patrick Hand', cursive;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  }
+  
+  #new:hover {
+    background-color: #f6ad55;
+  }
+  
+  

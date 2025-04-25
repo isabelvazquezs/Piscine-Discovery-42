@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+    table {
+      width: 100%;
+      height: 100%;
+      border-collapse: collapse;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    td {
+      padding: 60px;
+      color: rgb(255, 250, 251);
+    }
+
+    .celda1 {
+      background-color: #f185c8; 
+    }
+
+    .celda2 {
+      background-color: #e74c3c;
+    }

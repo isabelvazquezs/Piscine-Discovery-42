@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #eaeaea;
+  }
+.card {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card img.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .card .login {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .card .desc {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .redes {
+    margin-bottom: 15px;
+  }
+  
+  .redes img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    transition: transform 0.2s;
+  }
+  
+  .redes img:hover {
+    transform: scale(1.2);
+  }
+  
+  .card .contacto {
+    background-color: #681646;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .card .contacto:hover {
+    background-color: #944d7c;
+  }
